@@ -1,0 +1,171 @@
+/* 
+  01. Geral e tipografia
+  02. Backgrounds
+  03. Blocos
+  04. Separadores
+  05. Navbar
+  06. Header 
+  07. Nossas Receitas 
+  08. Dados 
+  09. Lista de Receitas
+  10. Especiais
+  11. Footer 
+  12. Ajustes para Responsividade
+*/
+
+/* ==========================================================================
+    01. Geral e tipografia
+========================================================================== */
+* {
+    font-family: 'Kreon', serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+/* ==========================================================================
+   02. Backgrounds
+========================================================================== */
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ==========================================================================
+    03. Blocos
+========================================================================== */
+
+.section-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    
+}
+
+/* ==========================================================================
+    04. Separadores
+========================================================================== */
+
+/* ==========================================================================
+    05. Navbar
+========================================================================== */
+#navBar .container {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+#navBar .nav-item {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+}
+
+#navBar .nav-item .active {
+    color: #ed0123;
+}
+
+/* ==========================================================================
+    06. Header 
+========================================================================== */
+
+#header {
+    background-image: url(../img/parallax/1.jpg);
+}
+
+#header .container {
+    padding: 230px 0 230px 0;
+}
+
+#header h1 {
+    font-size: 7rem;
+    color: white;
+    background-color: #ed0123;
+    padding: 0 15px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#header p {
+    font-size: 2rem;
+    color: #ed0123;
+    background-color: white;
+    padding: 0 15px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#header btn {
+    
+}
+
+
+/* ==========================================================================
+    07. Nossas Receitas 
+========================================================================== */
+
+#diferenciais i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #ed0123;
+    display: inline-block;
+}
+
+#diferenciais h3 {
+    margin-bottom: 2rem;
+}
+
+/* ==========================================================================
+    08. Dados 
+========================================================================== */
+
+/* ==========================================================================
+    09. Lista de Receitas
+========================================================================== */
+
+/* ==========================================================================
+    10. Especiais
+========================================================================== */
+
+/* ==========================================================================
+    11. Footer 
+========================================================================== */
+
+/* ==========================================================================
+    12. Ajustes para Responsividade
+========================================================================== */
+
+@media screen and (max-width:991px){
+    #header h1{
+        font-size: 5rem;
+    }
+    #header p{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    #header h1{
+        font-size: 3.5rem;
+    }
+    #header p{
+        font-size: 1rem;
+    }
+}
