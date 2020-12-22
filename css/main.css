@@ -140,8 +140,25 @@ h6 {
 /* ==========================================================================
     08. Dados 
 ========================================================================== */
+#dados {
+    color: white;
+}
 
+#dados i {
+    font-size: 6rem;
+}
 
+#dados h4 {
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+#dados p {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
 
 /* ==========================================================================
     09. Lista de Receitas
@@ -166,6 +183,9 @@ h6 {
     #header p{
         font-size: 1.5rem;
     }
+    #dados .wrapper {
+        margin-bottom: 2rem;
+    }
 }
 
 
@@ -177,4 +197,3 @@ h6 {
         font-size: 1rem;
     }
 }
-
