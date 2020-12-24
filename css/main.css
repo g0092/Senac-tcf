@@ -8,6 +8,7 @@
   07. Nossas Receitas 
   08. Dados 
   09. Lista de Receitas
+  09.1 Receitas Doces
   10. Especiais
   11. Footer 
   12. Ajustes para Responsividade
@@ -48,6 +49,10 @@ h6 {
 
 .bg-2 {
     background-image: url(../img/parallax/2.jpg);
+}
+
+.bg-3 {
+    background-image: url(../img/parallax/3.jpg);
 }
 
 /* ==========================================================================
@@ -180,9 +185,34 @@ h6 {
 }
 
 /* ==========================================================================
+    09.1 Receitas Doces
+========================================================================== */
+
+#title-recipe {
+    margin-top: 40px;
+}
+
+#cards-receitas .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.15)5px 5px 30px 5px;
+}
+
+#cards-receitas .wrapper {
+    margin-bottom: 3rem;
+
+}
+
+/* ==========================================================================
     10. Especiais
 ========================================================================== */
-especiais
+#especiais {
+    color: white;
+}
+
+#especiais .wrapper {
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 /* ==========================================================================
     11. Footer 
